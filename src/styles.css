@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #FF6F61;
+    color: #B4AFAE;
     transition: 0.5s;
 }
 
@@ -214,13 +214,13 @@ button.btn:hover {
 }
 
 .brand .b-logo {
-    text-align: left;
+    text-align: center;
     overflow: hidden;
 }
 
 .brand .b-logo a img {
     max-width: 100%;
-    max-height: 60px;
+    max-height: 90px;
 }
 
 .brand .b-ads {
@@ -1263,7 +1263,7 @@ button.btn:hover {
 
 .footer .footer-widget ul li a:hover {
     padding-left: 10px;
-    color: #FF6F61;
+    color: #B4AFAE;
 }
 
 .footer .contact-info p {
@@ -1299,7 +1299,7 @@ button.btn:hover {
 }
 
 .footer .social a:hover {
-    background: #FF6F61;
+    background: #B4AFAE;
 }
 
 .footer .social a:hover i {
