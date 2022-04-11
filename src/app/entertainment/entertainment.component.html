@@ -11,6 +11,132 @@
             <p>So, dear reader, we invite you to take the following trivia quiz on some of the most memorable works in the history of cinema, and if you don't manage to answer everything, don't worry, it is <span class="word_prefix">irrelevant</span>, our
                 mission is to entertain you and encourage your passion for the seventh art.
             </p>
+            <br>
+            <form [formGroup]="cinemaForm" (ngSubmit)="showResultOrReload()">
+                <div class="mb-4">
+                    <h4>1. Considering the economic factor of inflation, which film has generated more money in history? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question1" value="r1" label="Avengers: Endgame." formControlName="question1"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question1" value="r2" label="Gone with the wind." formControlName="question1"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question1" value="r3" label="Avatar." formControlName="question1"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>2. Wich of the following movies starred Charles Chaplin? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question2" value="r1" label="Modern Times." formControlName="question2"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question2" value="r2" label="Casablanca." formControlName="question2"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question2" value="r3" label="Schidler's List." formControlName="question2"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>3. How manny actors have played The Batman? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question3" value="r1" label="14." formControlName="question3"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question3" value="r2" label="19." formControlName="question3"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question3" value="r3" label="13." formControlName="question3"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>4. Once Upon a Time in Hollywood, Kill Bill, <span class="word_prefix">Inglorious</span> Basterds, and Django <span class="word_prefix">Unchained</span> are movies directed by… </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question4" value="r1" label="Matt Reeves." formControlName="question4"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question4" value="r2" label="Quentin Tarantino." formControlName="question4"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question4" value="r3" label="Steven Spielberg." formControlName="question4"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>5. What year was Star Wars: Episode VI - Return of the Jedi released? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question5" value="r1" label="2001." formControlName="question5"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question5" value="r2" label="1983." formControlName="question5"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question5" value="r3" label="1985." formControlName="question5"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>6. Who is the actor who played 'El zorro'?</h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question6" value="r1" label="Antonio Banderas." formControlName="question6"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question6" value="r2" label="Mario Casas." formControlName="question6"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question6" value="r3" label="Robert Pattinson." formControlName="question6"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>7. This movie bt Alfred Hitchcock is considered the precursos of the thiller genre. </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question7" value="r1" label="Psycho." formControlName="question7"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question7" value="r2" label="Paranormal Activity." formControlName="question7"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question7" value="r3" label="The Shining." formControlName="question7"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>8. In the pixar animated movie Cars, wich team does the main character belong to? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question8" value="r1" label="Dinocco." formControlName="question8"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question8" value="r2" label="Rust-eze." formControlName="question8"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question8" value="r3" label="Red Bull." formControlName="question8"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>9. The famous actor Leonardo DiCaprio received his first Academy Award for his performance in </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question9" value="r1" label="The Revenant." formControlName="question9"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question9" value="r2" label="The Wolf of Wall Street." formControlName="question9"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question9" value="r3" label="Shutter Island." formControlName="question9"></p-radioButton>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h4>10. How many Oscars did the foreign film parasites receive in 2020? </h4>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question10" value="r1" label="1." formControlName="question10"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question10" value="r2" label="3." formControlName="question10"></p-radioButton>
+                    </div>
+                    <div class="field-radiobutton">
+                        <p-radioButton name="question10" value="r3" label="4." formControlName="question10"></p-radioButton>
+                    </div>
+                </div>
+                <p-button class="mb-4" icon="pi pi-check" label="Let's Check!" *ngIf="!reload" type="submit"></p-button>
+                <p-button class="mb-4" icon="pi pi-history" label="Reload     " *ngIf="reload" type="submit"></p-button>
+                <p>Correct Answers: {{count}}</p>
+            </form>
         </div>
     </div>
 </div>
