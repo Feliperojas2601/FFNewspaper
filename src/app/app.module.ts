@@ -10,6 +10,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {RadioButtonModule} from 'primeng/radiobutton';
 import {ButtonModule} from 'primeng/button';
 import { HumansComponent } from './humans/humans.component';
+import {ImageModule} from 'primeng/image';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { HumansComponent } from './humans/humans.component';
     AppRoutingModule, 
     ReactiveFormsModule, 
     RadioButtonModule, 
-    ButtonModule
+    ButtonModule, 
+    ImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
