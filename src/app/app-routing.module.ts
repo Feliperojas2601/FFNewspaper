@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
 import { HumansComponent } from './humans/humans.component';
+import { HealthComponent } from './health/health.component';
+import { DeppComponent } from './depp/depp.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'humans', 
     component: HumansComponent
+  },
+  {
+    path: 'health', 
+    component: HealthComponent
+  },
+  {
+    path: 'depp', 
+    component: DeppComponent
   },
   { 
     path: '', 

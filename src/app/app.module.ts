@@ -11,6 +11,8 @@ import {RadioButtonModule} from 'primeng/radiobutton';
 import {ButtonModule} from 'primeng/button';
 import { HumansComponent } from './humans/humans.component';
 import {ImageModule} from 'primeng/image';
+import { HealthComponent } from './health/health.component';
+import { DeppComponent } from './depp/depp.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {ImageModule} from 'primeng/image';
     HomeComponent,
     NewsComponent,
     EntertainmentComponent,
-    HumansComponent
+    HumansComponent,
+    HealthComponent,
+    DeppComponent
   ],
   imports: [
     BrowserModule,
