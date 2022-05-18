@@ -1,66 +1,27 @@
 <!-- Top News Start-->
-<!-- <div class="top-news">
+<div class="top-news">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 tn-left">
-                <div class="row tn-slider">
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-450x350-1.jpg" />
-                            <div class="tn-title">
-                                <a href="">Lorem ipsum dolor sit amet</a>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2>Breaking News</h2>
+                <p-carousel [value]="news" styleClass="custom-carousel" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+                    <ng-template let-new pTemplate="item">
+                        <div class="product-item">
+                            <div class="product-item-content">
+                                <div class="mb-3">
+                                    <img src="{{new.image}}" [alt]="new.name" class="product-image" />
+                                </div>
+                                <div>
+                                    <a routerLink="/news" class="nav-item nav-link">{{new.name}}</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-450x350-2.jpg" />
-                            <div class="tn-title">
-                                <a href="">Integer hendrerit elit eget purus sodales maximus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 tn-right">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-350x223-1.jpg" />
-                            <div class="tn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-350x223-2.jpg" />
-                            <div class="tn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-350x223-3.jpg" />
-                            <div class="tn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="tn-img">
-                            <img src="img/news-350x223-4.jpg" />
-                            <div class="tn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    </ng-template>
+                </p-carousel>
             </div>
         </div>
     </div>
-</div> -->
+</div>
 <!-- Top News End-->
 
 <!-- Category News Start-->
