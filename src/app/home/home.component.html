@@ -2,7 +2,7 @@
 <div class="top-news">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12 text-center">
+            <div class="cat-news col-md-12 text-center">
                 <h2>Breaking News</h2>
                 <p-carousel [value]="news" styleClass="custom-carousel" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
                     <ng-template let-new pTemplate="item">
@@ -109,6 +109,53 @@
     </div>
 </div>
 <!-- Category News End-->
+
+
+<!-- Main News Start-->
+<div class="main-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 cat-news text-center">
+                <h2>How to get over a break up</h2>
+            </div>
+            <div class="col-md-8">
+                <div class="row cn-slider ">
+                    <div class="col-md-12 text-center">
+                        <div class="cn-img">
+                            <img class="badImage" src="../../assets/img/bad.jpg" />
+                            <div class="cn-title">
+                                <a href="https://www.youtube.com/watch?v=p38WgakuYDo&list=OLAK5uy_l3rT1z1t11Pn6CugxRd3ZxQQOpWGqzUMU&index=1&ab_channel=BadBunny" class="nav-item nav-link">Bad bunny's new album.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mn-list">
+                    <h2>Steps</h2>
+                    <ul>
+                        <li>
+                            <a routerLink="/howto">Going out with friends.</a>
+                        </li>
+                        <li>
+                            <a routerLink="/howto">Don't contact your ex.</a>
+                        </li>
+                        <li>
+                            <a routerLink="/howto">Express your feelings.</a>
+                        </li>
+                        <li>
+                            <a routerLink="/howto">One devil drives out another.</a>
+                        </li>
+                        <li>
+                            <a routerLink="/howto">No comebacks.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main News End-->
 
 <!-- Tab News Start-->
 <!-- <div class="tab-news">
@@ -306,107 +353,4 @@
         </div>
     </div>
 </div> -->
-<!-- Tab News Start-->
-
-<!-- Main News Start-->
-<!-- <div class="main-news">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-1.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-2.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-3.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-4.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-5.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-1.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-2.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-3.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mn-img">
-                            <img src="img/news-350x223-4.jpg" />
-                            <div class="mn-title">
-                                <a href="">Lorem ipsum dolor sit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="mn-list">
-                    <h2>Read More</h2>
-                    <ul>
-                        <li><a href="">Lorem ipsum dolor sit amet</a></li>
-                        <li><a href="">Pellentesque tincidunt enim libero</a></li>
-                        <li><a href="">Morbi id finibus diam vel pretium enim</a></li>
-                        <li><a href="">Duis semper sapien in eros euismod sodales</a></li>
-                        <li><a href="">Vestibulum cursus lorem nibh</a></li>
-                        <li><a href="">Morbi ullamcorper vulputate metus non eleifend</a></li>
-                        <li><a href="">Etiam vitae elit felis sit amet</a></li>
-                        <li><a href="">Nullam congue massa vitae quam</a></li>
-                        <li><a href="">Proin sed ante rutrum</a></li>
-                        <li><a href="">Curabitur vel lectus</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Main News End-->
+<!-- Tab News End-->

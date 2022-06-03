@@ -14,6 +14,7 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
 import { HumansComponent } from './humans/humans.component';
 import { HealthComponent } from './health/health.component';
 import { DeppComponent } from './depp/depp.component';
+import { HowtoComponent } from './howto/howto.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DeppComponent } from './depp/depp.component';
     EntertainmentComponent,
     HumansComponent,
     HealthComponent,
-    DeppComponent
+    DeppComponent,
+    HowtoComponent
   ],
   imports: [
     BrowserModule,

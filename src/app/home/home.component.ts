@@ -8,9 +8,10 @@ import { New } from '../model/new';
 })
 export class HomeComponent implements OnInit {
 
-  public news: New[] = [{name:'New 1',image:'../../assets/img/essay.jpg'}, 
-  {name:'New 2',image:'../../assets/img/essay.jpg'},
-  {name:'New 3',image:'../../assets/img/essay.jpg'}]; 
+  public news: New[] = [{name:'Deportations to begin.',image:'../../assets/img/trumpSlider.jpg'}, 
+  {name:'An affair at UNAL.',image:'../../assets/img/sastoque.jpeg'},
+  {name:"El panita's misfortune.",image:'../../assets/img/mina.jpeg'},
+  {name:'Sugar, the health benefits.',image:'../../assets/img/sugar.jpg'}]; 
 
   constructor() { }
 
