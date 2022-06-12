@@ -7,6 +7,7 @@ import { HumansComponent } from './humans/humans.component';
 import { HealthComponent } from './health/health.component';
 import { DeppComponent } from './depp/depp.component';
 import { HowtoComponent } from './howto/howto.component';
+import { WhatComponent } from './what/what.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'depp', 
     component: DeppComponent
+  },
+  {
+    path: 'what',
+    component: WhatComponent
   },
   { 
     path: '', 
