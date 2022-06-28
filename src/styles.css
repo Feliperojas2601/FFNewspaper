@@ -708,7 +708,8 @@ button.btn:hover {
 }
 
 .main-news .mn-img img {
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .main-news .mn-img:hover img {
@@ -738,7 +739,7 @@ button.btn:hover {
 }
 
 .main-news .mn-title a:hover {
-    color: #FF6F61;
+    color: #B4AFAE;
 }
 
 .main-news .mn-list {
@@ -782,7 +783,7 @@ button.btn:hover {
 }
 
 .main-news .mn-list ul li a:hover {
-    color: #FF6F61;
+    color: #B4AFAE;
 }
 
 
